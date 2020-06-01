@@ -19,4 +19,10 @@ res/raw/
         android:onClick="play"
         android:tag="A"/>
 </code></pre>
+
+# In activity
+    public void play(View v) {
+        String tag = v.getTag().toString();
+        mSoundPool.play(map.get(tag), 1, 1, 1, 0, 1);
+    }
   
