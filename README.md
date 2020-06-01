@@ -12,13 +12,11 @@ play(...)
 res/raw/
 
 # to pass parameters by xml button 'onclick', use 'tag'
-  <Button
-        style="@style/KeyStyle"
+<pre><code>
+    < Button
         android:id="@+id/a_key"
-        android:background="@color/blue"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        ...
         android:onClick="play"
         android:tag="A"/>
+</code></pre>
+  
